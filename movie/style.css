@@ -1,0 +1,748 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#logobar{
+    width: 100%;
+    height: 100px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+
+.container{
+    width: 900px;
+    height: 100%;
+    margin: auto;   
+}
+
+
+.logo{
+    width:100% ;
+    height: 100px;
+    margin: auto;
+    background-image: url("../img/Walter_Mitty_Logo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.bannerbox{
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-image: url("../img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#nav{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+}
+.btn-group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+}
+
+.btn{
+    width: 33.333%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16pt;
+    font-weight: 900;
+    color: rgb(174, 180, 180);
+    text-align: center;
+    font-family: '微軟正黑體';
+}
+
+ #btn1{
+    border-right: 2px solid rgba(146, 146, 146, 0.5);
+    border-left: 2px solid rgba(146, 146, 146, 0.5);
+}
+
+#btn3{
+    border-right: 2px solid rgba(146, 146, 146, 0.5);
+    border-left: 2px solid rgba(146, 146, 146, 0.5);
+}
+
+#btn4{
+    border-right: 2px solid rgba(146, 146, 146, 0.5);
+} 
+
+.btn:hover{
+    width: 33.333%;
+    height: 30px;
+    color: black;
+}
+
+
+
+
+.section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+#character{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box{
+    width: 250px;
+    height: 100%;
+    position: relative;  
+}
+
+.cbox{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top:10%;
+}
+
+#c1{
+    background-image: url("../img/WM1-e1572986603549.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#c2{
+    background-image: url("../img/kristen-wiig-the-secret-life-of-walter-mitty.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#c3{
+    background-image: url("../img/572e91644c98361400b5669f2efb6c30.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.tbox{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(177, 175, 174,0.3);
+    position: absolute;
+    top: 60%;
+    font-size: 15pt;
+    font-weight: 800;
+    text-align: center;
+    font-family: '微軟正黑體';
+}
+
+
+.tbox2{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-size: 12pt;
+    font-family: '微軟正黑體';
+}
+
+.tbox3{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.storypic{
+    width: 100%;
+    height: 60%;
+    background-image: url("../img/The-Secret-Life-of-Walter-Mitty1.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.storyt{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 5%;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding-top: 20px;
+    text-align: center;
+    font-family: '微軟正黑體';
+}
+
+
+#place{
+    position: relative;
+}
+
+.allbox{
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    top:8%;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.showbox{
+    width: 100%;
+    height: 77%;
+    transition: 0.3s;
+    background-image: url("../img/p5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.placepic{
+    width: 18%;
+    height: 20%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+
+#p1{
+    background-image: url("../img/p1.jpg");
+    filter: brightness(60%);
+    
+}
+
+#p2{
+    background-image: url("../img/p2\ \(2\).jpg");
+    filter: brightness(60%);
+}
+
+#p3{
+    background-image: url("../img/p31.jpg");
+    filter: brightness(60%);
+}
+
+#p4{
+    background-image: url("../img/p4.jpg");
+    filter: brightness(60%);
+}
+
+#p5{
+    background-image: url("../img/p5.png");
+    filter: brightness(60%);
+}
+
+
+
+#ipt1:hover~ #p1{
+    filter: brightness(100%);
+}
+#ipt2:hover~ #p2{
+    filter: brightness(100%);
+    
+}#ipt3:hover~ #p3{
+    filter: brightness(100%);
+    
+}#ipt4:hover~ #p4{
+    filter: brightness(100%);
+    
+}#ipt5:hover~ #p5{
+    filter: brightness(100%);
+    
+}
+
+input{
+    width: 18%;
+    height: 20%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+    opacity: 0;
+}
+
+#ipt1{
+    left: 1%;
+}
+
+#ipt2{
+    left: 21%;
+}
+
+#ipt3{
+    left: 41%;
+}
+
+#ipt4{
+    left: 61%;
+}
+
+#ipt5{
+    left: 81%;
+}
+
+#ipt1:checked~.showbox{
+    background-image: url("../img/p1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ipt2:checked~.showbox{
+    background-image: url("../img/p2\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ipt3:checked~.showbox{
+    background-image: url("../img/p31.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ipt4:checked~.showbox{
+    background-image: url("../img/p4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ipt5:checked~.showbox{
+    background-image: url("../img/p5.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.team-group{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teambox{
+    width: 40%;
+    height: 70%;
+    background-color: darkgrey;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10,0.7);
+    text-align: center;
+    padding: 0px 30px ;
+    color: silver;
+    font-family: '微軟正黑體';
+    position: absolute;
+    left: 0;
+    top: 75%;
+    transition: 0.5s;
+
+    
+}
+
+.mask2{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    padding: 5px 30px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mask3{
+    width: 100%;
+    height: 41%;
+    text-align: center;
+    padding: 5px 30px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.mask4{
+    width: 100%;
+    height: 33%;
+    text-align: center;
+    padding: 5px 30px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#tb1{
+    background-image: url("../img/35920011.jpg");
+    overflow: hidden;
+}
+
+#tb2{
+    background-image: url("../img/MV5BNTY5ODYzOTI1MV5BMl5BanBnXkFtZTgwNDIzMjkyODE@._V1_.jpg");
+    overflow: hidden;
+}
+
+
+#tb1:hover .mask{
+    top: 0;
+}
+
+#tb2:hover .mask{
+    top: 0;
+}
+
+
+
+.fake-anchor{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+}
+
+
+.footertop{
+    width: 100%;
+    height: 220px;
+}
+
+.footertopbox{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: rgb(66, 64, 64);
+    font-size: 23pt;
+    font-weight: 700;
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(139, 162, 168);
+}
+
+P{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#gototop{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(89, 106, 110);
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 20pt;
+    position: fixed;
+    right: 35px;
+    bottom: 25px;
+    z-index: 300;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.41);
+    }
+
+    #gototop:hover{
+        background-color: rgb(108, 126, 131);
+    } 
+
+    .menu-toggle{
+        display: none;
+    }
+
+
+
+@media(max-width:900px){
+
+
+
+    .container{
+        width: 100%;
+        margin: 0;      
+    }
+
+
+    
+
+    .footertopbox{
+        width: 90%;
+        height: 100%;
+        font-size: 20pt;
+    }
+
+}
+
+@media(max-width:800px){
+
+    .bannerbox{
+        width: 100%;
+        height: calc(100vh - 180px);
+        background-image: url("../img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
+        background-size:cover;
+        background-position: center;
+    }
+
+    .box{
+        width: 200px;
+        height: 100%;
+        position: relative;
+    }
+    
+    .cbox{
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top:10%
+    }
+
+    .allbox{
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top:5%;
+        left: 5%;
+    } 
+
+    
+    .footertopbox{
+        width: 90%;
+        height: 100%;
+        font-size: 17pt;
+    }
+
+    .mask2{
+        width: 100%;
+        height: 70%;  
+    }
+        
+    .mask3{
+        width: 100%;
+        height: 43%;    
+    }
+        
+        
+    .mask4{
+        width: 100%;
+        height: 30%;
+    }
+
+        
+
+        
+}
+
+@media(max-width:650px){
+
+
+    
+
+    #character{
+        display: flex;
+        align-items: unset;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .box{
+        width: 100%;
+        height: 90%;
+        position: relative;
+    }
+
+    .cbox{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top:7%;
+        left: 10%;
+    }
+
+    .tbox{
+        width: 45%;
+        height: 60px;
+        background-color: rgba(177, 175, 174,0.3);
+        position: absolute;
+        top: 20%;
+        left: 45%;
+    }
+    
+    
+    .tbox2{
+        width: 50%;
+        height: 25%;
+        position: absolute;
+        text-align: center;
+        bottom: 17%;
+        left: 45%;
+        font-size: 12pt;
+    }
+
+    .allbox{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0%;
+        left: 0%;
+    } 
+
+    .mask2{
+        width: 100%;
+        height: 70%;
+    }
+
+    .mask3{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .mask4{
+        width: 100%;
+        height: 30%; 
+    }
+
+    .footertopbox{
+        width: 90%;
+        height: 100%;
+        font-size: 15pt;
+    }
+
+    .menu-toggle{
+        display: unset;
+        width: 9%;
+        height: 75%;
+        background-color: rgb(139, 162, 168);
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        position: absolute;
+        top:13%;
+        left:2%;
+    }
+
+    .btn-group{
+        width: 87%;
+        height: 75%;
+        position: absolute;
+        top: 13%;
+        left: 11%;
+        display: none;
+        align-items: unset;  
+        justify-content: unset; 
+        background-color: rgb(139, 162, 168);
+        padding-top: 1.5%;
+        padding-left: 5%;
+    }
+    
+    .btn{
+        width: 100px;
+        height: 80%;
+        line-height: 40px;
+        font-size: 15pt;
+        color: rgb(174, 180, 180);
+        background-color: white;
+        float: left ;
+        margin-right: 4%; 
+    }
+    
+     #btn1{
+        border-right: unset;
+        border-left: unset;
+    }
+    
+    #btn3{
+        border-right: unset;
+        border-left: unset;
+    }
+    
+    #btn4{
+        border-right: unset;
+    } 
+    
+    .btn:hover{
+        width: 23%;
+        height: 80%;
+        color: black;
+    }
+
+    .menu-toggle:hover~.btn-group{
+        display: block;
+    }
+
+    
+
+    @media(max-width:581px){
+
+    .btn-group{
+        width: 30%;
+        height: 250px;
+        top:13%;
+        left: 12%;
+        padding-top: 0;
+        padding-left: 0;
+        background-color: rgb(200, 226, 225);
+    }
+        
+    .btn{
+        width: 100%;
+        height: 24%;
+        line-height: 55px;
+        font-size: 18pt;
+        text-align: center ;
+        color: rgb(255, 255, 255);
+        background-color: rgb(139, 162, 168);
+        float: left ;
+        margin-right: unset;
+        margin-bottom: 3.5%;  
+    }
+
+    .bannerbox{
+        background-size:cover;
+        background-position: left;   
+    }
+
+    }
+    
+}
