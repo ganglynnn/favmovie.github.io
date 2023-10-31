@@ -31,7 +31,7 @@ html {
     width:100% ;
     height: 100px;
     margin: auto;
-    background-image: url("../img/Walter_Mitty_Logo.png");
+    background-image: url("img/Walter_Mitty_Logo.png");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +41,7 @@ html {
 .bannerbox{
     width: 100%;
     height: calc(100vh - 180px);
-    background-image: url("../img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
+    background-image: url("img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -126,19 +126,19 @@ html {
 }
 
 #c1{
-    background-image: url("../img/WM1-e1572986603549.jpg");
+    background-image: url("img/WM1-e1572986603549.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #c2{
-    background-image: url("../img/kristen-wiig-the-secret-life-of-walter-mitty.jpg");
+    background-image: url("img/kristen-wiig-the-secret-life-of-walter-mitty.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #c3{
-    background-image: url("../img/572e91644c98361400b5669f2efb6c30.jpg");
+    background-image: url("img/572e91644c98361400b5669f2efb6c30.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -177,7 +177,7 @@ html {
 .storypic{
     width: 100%;
     height: 60%;
-    background-image: url("../img/The-Secret-Life-of-Walter-Mitty1.jpg");
+    background-image: url("img/The-Secret-Life-of-Walter-Mitty1.jpg");
     background-position: bottom;
     background-size: cover;
 }
@@ -215,7 +215,7 @@ html {
     width: 100%;
     height: 77%;
     transition: 0.3s;
-    background-image: url("../img/p5.png");
+    background-image: url("img/p5.png");
     background-size: cover;
     background-position: center;
 }
@@ -232,28 +232,28 @@ html {
 }
 
 #p1{
-    background-image: url("../img/p1.jpg");
+    background-image: url("img/p1.jpg");
     filter: brightness(60%);
     
 }
 
 #p2{
-    background-image: url("../img/p2\ \(2\).jpg");
+    background-image: url("img/p2\ \(2\).jpg");
     filter: brightness(60%);
 }
 
 #p3{
-    background-image: url("../img/p31.jpg");
+    background-image: url("img/p31.jpg");
     filter: brightness(60%);
 }
 
 #p4{
-    background-image: url("../img/p4.jpg");
+    background-image: url("img/p4.jpg");
     filter: brightness(60%);
 }
 
 #p5{
-    background-image: url("../img/p5.png");
+    background-image: url("img/p5.png");
     filter: brightness(60%);
 }
 
@@ -307,31 +307,31 @@ input{
 }
 
 #ipt1:checked~.showbox{
-    background-image: url("../img/p1.jpg");
+    background-image: url("img/p1.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #ipt2:checked~.showbox{
-    background-image: url("../img/p2\ \(2\).jpg");
+    background-image: url("img/p2\ \(2\).jpg");
     background-position: center;
     background-size: cover;
 }
 
 #ipt3:checked~.showbox{
-    background-image: url("../img/p31.jpg");
+    background-image: url("img/p31.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #ipt4:checked~.showbox{
-    background-image: url("../img/p4.jpg");
+    background-image: url("img/p4.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #ipt5:checked~.showbox{
-    background-image: url("../img/p5.png");
+    background-image: url("img/p5.png");
     background-position: center;
     background-size: cover;
 }
