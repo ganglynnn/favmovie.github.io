@@ -404,12 +404,12 @@ input{
 
 
 #tb1{
-    background-image: url("../img/35920011.jpg");
+    background-image: url("img/35920011.jpg");
     overflow: hidden;
 }
 
 #tb2{
-    background-image: url("../img/MV5BNTY5ODYzOTI1MV5BMl5BanBnXkFtZTgwNDIzMjkyODE@._V1_.jpg");
+    background-image: url("img/MV5BNTY5ODYzOTI1MV5BMl5BanBnXkFtZTgwNDIzMjkyODE@._V1_.jpg");
     overflow: hidden;
 }
 
@@ -520,7 +520,7 @@ a{
     .bannerbox{
         width: 100%;
         height: calc(100vh - 180px);
-        background-image: url("../img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
+        background-image: url("img/mrvlpJFAzKwZZkLm9VD7Rh2VECi.jpg");
         background-size:cover;
         background-position: center;
     }
